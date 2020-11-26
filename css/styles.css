@@ -1,0 +1,268 @@
+body {
+  background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  font-family: 'Spartan', sans-serif;
+  margin: 15vh 0;
+  text-align: center;
+  height: 70vh;
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+.intro {
+  display: block;
+  width: 425px;
+  margin-right: 175px;
+  text-align: left;
+  color: purple;
+  color: hsl(300, 43%, 22%);
+}
+
+.title {
+  display: inline-block;
+  font-size: 400%;
+  font-weight: 700;
+  line-height: 0.9;
+  margin: 0;
+  padding: 0;
+}
+
+.introp {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.5;
+  color: grey;
+  color: hsl(303, 10%, 53%);
+}
+
+.sreviews {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  text-align: left;
+}
+
+.rating1,
+.rating2,
+.rating3 {
+  position: relative;
+  color: purple;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  background-color: gray;
+  background-color: hsl(300, 24%, 96%);
+  margin: inherit;
+  padding: 25px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.smobile {
+  display: none;
+}
+
+.rating1 {
+  margin-left: 0;
+}
+
+.rating2 {
+  margin-left: 75px;
+}
+
+.rating3 {
+  margin-left: 150px;
+}
+
+.creviews {
+  text-align: left;
+  display: flex;
+}
+
+.customerface {
+  float: left;
+  border-radius: 50%;
+  width: 45px;
+}
+
+.testimonial {
+  clear: both;
+  font-weight: 400;
+  line-height: 1.5;
+  color: grey;
+  color: hsl(300, 24%, 96%);
+}
+
+.colton,
+.irene,
+.anne {
+  background-color: purple;
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  height: 145px;
+  width: 280px;
+  padding: 50px;
+  margin: 0 15px;
+}
+
+.colton {
+  margin-top: 50px;
+  margin-left: 0;
+}
+
+.irene {
+  margin-top: 100px;
+}
+
+.anne {
+  margin-top: 150px;
+  margin-right: 0;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.buyer {
+  font-weight: 100;
+  color: pink;
+  color: hsl(333, 80%, 67%);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+    font-family: 'Spartan', sans-serif;
+    margin: 0;
+    height: auto;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+
+  .intro {
+    display: block;
+    width: 80vw;
+    margin: 0;
+    margin-top: 100px;
+    text-align: center;
+    color: purple;
+    color: hsl(300, 43%, 22%);
+  }
+
+  .title {
+    display: inline-block;
+    font-size: 350%;
+    font-weight: 700;
+    line-height: 0.9;
+    margin: 0;
+    padding: 0 0 25px 0;
+  }
+
+  .introp {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.5;
+    color: grey;
+    color: hsl(303, 10%, 53%);
+  }
+
+  .sreviews {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .rating1,
+  .rating2,
+  .rating3 {
+    position: relative;
+    color: purple;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    background-color: gray;
+    background-color: hsl(300, 24%, 96%);
+    margin: 0;
+    padding: 4vw;
+    width: 72vw;
+    border-radius: 10px;
+  }
+
+  .smobile {
+    display: block;
+  }
+
+  .creviews {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 100px;
+  }
+
+  .customerface {
+    float: left;
+    border-radius: 50%;
+    width: 45px;
+  }
+
+  .testimonial {
+    clear: both;
+    font-weight: 400;
+    line-height: 1.5;
+    color: grey;
+    color: hsl(300, 24%, 96%);
+  }
+
+  .colton,
+  .irene,
+  .anne {
+    background-color: purple;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    height: 175px;
+    width: 64vw;
+    padding: 8vw;
+    margin: 10px 0;
+  }
+
+  .name {
+    font-weight: 700;
+  }
+
+  .buyer {
+    font-weight: 100;
+    color: pink;
+    color: hsl(333, 80%, 67%);
+  }
+
+  .attribution {
+    position: relative;
+    bottom: 25px;
+  }
+}
